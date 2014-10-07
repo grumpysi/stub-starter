@@ -100,3 +100,10 @@ $app->match('/login', function (Request $request) use ($app) {
         'error' => $app['security.last_error']($request),
     ));
 })->bind('login');
+
+$app->post('sendemail', function (Silex\Application $app)
+{
+    // route to sendemail script
+    // This is temporary and needs replacing with a nice form handler
+    require_once APP_PATH.'/forms/sendemail.php';
+});

@@ -1,0 +1,11 @@
+{% macro listFaqs(faqdata) %}
+    {% for faq in faqdata %}
+        <li>
+            <span class="number">{{ "%02d"|format(loop.index) }}</span>
+            <div>
+                <h4>{{ faq.question|default('')|e }}</h4>
+                <p>{{ faq.answer|default('')|raw }}</p>
+            </div>
+        </li>
+    {% endfor %}
+{% endmacro %}

@@ -1,0 +1,49 @@
+routings:
+  index:
+    method: get
+    url: /
+    view: index.twig
+  about us:
+    method: get
+    url: /about
+    view: about.twig
+  services:
+    method: get
+    url: /services
+    view: services.twig
+  portfolio:
+    method: get
+    url: /portfolio
+    view: portfolio.twig
+  career:
+    method: get
+    url: /career
+    view: career.twig
+  blog-single:
+    method: get
+    url: /blog-single
+    view: blog-single.twig
+  pricing:
+    method: get
+    url: /pricing
+    view: pricing.twig
+  registration:
+    method: get
+    url: /registration
+    view: registration.twig
+  privacy:
+    method: get
+    url: /privacy
+    view: privacy.twig
+  terms:
+    method: get
+    url: /terms
+    view: terms.twig
+  blog:
+    method: get
+    url: /blog
+    view: blog.twig
+  contact-us:
+    method: get
+    url: /contact-us
+    view: contact-us.twig

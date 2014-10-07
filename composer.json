@@ -1,0 +1,28 @@
+{
+    "name": "grumpysi/stub-starter",
+    "type": "project",
+    "description": "A basic project bootstrap using Silex, Twig and Codeception",
+    "keywords": ["framework", "silex", "twig", "codeception"],
+    "homepage": "http://github.com/grumpysi/stub-starter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Nicklin",
+            "email": "simon@njo.im"
+        }
+    ],
+    "require": {
+        "silex/silex": "1.2.*",
+        "symfony/yaml": "2.2.*",
+        "twig/twig": ">=1.8,<2.0-dev"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "app"
+        }
+    },
+    "minimum-stability": "stable"
+}

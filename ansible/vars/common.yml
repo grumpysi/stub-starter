@@ -1,0 +1,6 @@
+---
+    php_ppa: php5-oldstable
+    doc_root: /vagrant
+    sys_packages: ["imagemagick"]
+    dist: precise
+    php_packages: ["php5-imagick","php5-curl","php5-gd","php5-mcrypt","php5-sqlite","php5-xdebug"]

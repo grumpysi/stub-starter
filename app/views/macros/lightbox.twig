@@ -1,0 +1,7 @@
+{%  macro images(images)  %}
+    {% for image in images %}
+        <a href="/assets/img/products/medium/{{ image.path|default('') }}" data-lightbox-gallery="g1" title="{{ image.title|default('') }}">
+            <img src="/assets/img/products/medium/{{ image.path|default('') }}" alt="" />
+        </a>
+    {% endfor %}
+{% endmacro %}

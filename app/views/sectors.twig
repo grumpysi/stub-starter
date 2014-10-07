@@ -1,0 +1,37 @@
+{% extends "layouts/default.twig" %}
+{% import "macros/sectors.twig" as sector %}
+
+{% block title %}Resan | Thomas Dudley{% endblock %}
+{% block meta_description %}Resan - proven anti vandal toilets with a superior finish to steel basins, WC pans and urinals.{% endblock %}
+{% block meta_keywords %}Anti vandal toilets, steel basins, vandal resistant sanitaryware, stainless steel urinals, stainless steel toilet pans, stainless stainless toilet, commercial toilets, stainless urinals, commercial bathrooms, stainless steel wc{% endblock %}
+
+{% block content %}
+
+    <!-- start main content layout -->
+    <div id="main" class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+
+                <!-- Content intro: Start -->
+                <div class="row clearfix intro_row">
+
+                    <div class="col-md-6 column">
+                        <h1>Sectors</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus massa, ultricies eu fermentum vel, vulputate nec ante. Aenean nec lectus auctor, dignissim nulla sed, dictum lorem. Proin tincidunt purus nulla, vel commodo lorem convallis quis. Donec volutpat pretium mattis.</p>
+                    </div>
+
+                </div>
+                <!-- Content intro: End -->
+
+                <!-- start main content -->
+                <div class="row clearfix sectors_grid">
+                    {{ sector.list_sectors( sectorsdata ) }}
+                </div>
+                <!-- end main content -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end main content layout -->
+
+{% endblock %}

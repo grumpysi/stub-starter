@@ -1,0 +1,33 @@
+{% macro list_products(productsdata) %}
+    {% for product in productsdata %}
+        <div class="col-md-4 column">
+            <div class="product-box">
+                <div class="pad">
+                    <h3>{{ product.name|default('') }}</h3>
+                </div>
+                <a href="{{ product.url|default('#') }}"><img src="/assets/img/products/thumbs/{{ product.thumb|default('') }}" /></a>
+                <div class="pad">
+                    <div class="description">
+                        <p>{{ product.shortdesc|default('')|e }}</p>
+                    </div>
+                    <a href="{{ product.url|default('#') }}" class="link">View Product Details »</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endmacro %}
+
+
+{% macro buttons(productdata) %}
+    <div class="row clearfix" id="product-detail-buttons">
+        <div class="col-md-4 column">
+            <a href="{{ productdata.brochureurl|default('#') }}" class="btn btn-primary btn-lg btn-block" role="button">BROCHURE</a>
+        </div>
+        <div class="col-md-4 column">
+            <a href="#" class="btn btn-primary btn-lg btn-block" role="button">ENQUIRY</a>
+        </div>
+        <div class="col-md-4 column">
+            <a href="#" class="btn btn-primary btn-lg btn-block" role="button">CASE STUDIES</a>
+        </div>
+    </div>
+{% endmacro %}

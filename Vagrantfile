@@ -18,7 +18,6 @@ end
 Vagrant.configure("2") do |config|
 
     config.vm.provider :virtualbox do |v|
-        v.name = "stub"
         v.customize ["modifyvm", :id, "--memory", 512]
     end
 
@@ -43,5 +42,5 @@ Vagrant.configure("2") do |config|
     end
 
     
-    config.vm.synced_folder "~/Projects/Silex-Twig-Bootstrap", "/vagrant", type: "nfs"
+    config.vm.synced_folder "", "/vagrant", type: "nfs"
 end

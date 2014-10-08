@@ -17,7 +17,9 @@
         "twig/twig": ">=1.8,<2.0-dev"
     },
     "require-dev": {
-        "codeception/codeception": "*"
+        "codeception/codeception": "*",
+        "codeception/specify: *",
+        "codeception/verify: *",
     },
     "autoload": {
         "psr-4": {

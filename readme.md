@@ -1,5 +1,6 @@
 STUB, a simple project bootstrap
 ================================
+[![Build Status](https://travis-ci.org/grumpysi/stub-starter.png)](https://travis-ci.org/grumpysi/stub-starter)
 
 A simple starter project using Silex, Twig and Codeception.
 Includes Vagrant environment for quick startup.

@@ -4,6 +4,7 @@ php:
   - 5.4
 
 before_script:
+  - composer self-update
   - composer install --prefer-source
   - php -S localhost:31415 -t web/ &
 

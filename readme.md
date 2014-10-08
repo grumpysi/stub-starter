@@ -3,9 +3,7 @@ STUB, a simple project bootstrap
 [![Build Status](https://travis-ci.org/grumpysi/stub-starter.png)](https://travis-ci.org/grumpysi/stub-starter)
 
 A simple starter project using Silex, Twig and Codeception.
-Includes Vagrant environment for quick startup.
-
-Silex works with PHP 5.3.3 or later.
+Includes Vagrant environment for quick startup.  Silex works with PHP 5.3.3 or later.
 
 ## Setup using Vagrant (optional)
 
@@ -21,7 +19,7 @@ Silex works with PHP 5.3.3 or later.
  * You're done! Navigate to `http://stub.dev/index.php` to see your application.
 
 
-For more information on Composer, Grunt and Vagrant:
+For more information on Composer and Vagrant:
 
 * [Composer documentation](http://getcomposer.org/doc/)
 * [Vagrant documentation](http://docs.vagrantup.com/v2/)

@@ -19,7 +19,8 @@ Installation
 
     git clone https://github.com/grumpysi/stub-starter.git newProjectName
 
-Alternatively, you can download the `stub-starter.zip`_ file and extract it.
+Alternatively, you can download the `https://github.com/grumpysi/stub-starter/archive/master.zip` file and extract it.
+
 
 Add `192.168.10.11 stub.dev` to your hosts file
 
@@ -27,10 +28,12 @@ Add `192.168.10.11 stub.dev` to your hosts file
 
     sudo nano /private/etc/hosts
 
+
 .. code-block:: bash
 
     cd newProjectName
     vagrant up
+
 
 Finally open `http://stub.dev` in your browser.
 

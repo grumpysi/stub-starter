@@ -16,6 +16,3 @@
     - composer
     - phpcommon
     - app
-  tasks:
-    - name: Run composer install
-    - command: composer install --no-interaction --dev

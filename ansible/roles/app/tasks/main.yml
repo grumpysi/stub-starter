@@ -1,4 +1,4 @@
 ---
 # application tasks to be customized and to run after the main provision
   - name: Run composer install
-    command: composer install --working-dir /vagrant/ --no-interaction
+    command: composer install --dev --working-dir /vagrant/ --no-interaction

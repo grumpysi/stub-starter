@@ -1,0 +1,3 @@
+.vagrant
+tests/_log/
+vendor

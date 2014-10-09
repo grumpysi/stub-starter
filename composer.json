@@ -13,11 +13,11 @@
     ],
     "require": {
         "silex/silex": "1.2.*",
-        "symfony/yaml": "2.2.*",
+        "symfony/yaml": "*",
         "twig/twig": ">=1.8,<2.0-dev"
     },
     "require-dev": {
-        "codeception/codeception": "2.1.*"
+        "codeception/codeception": "*"
     },
     "autoload": {
         "psr-4": {

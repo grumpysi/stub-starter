@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
     config.vm.box = "hashicorp/precise64"
     
     config.vm.network :private_network, ip: "192.168.10.11"
+    config.vm.network :forwarded_port, host: 31415, guest: 80
     config.ssh.forward_agent = true
 
     #############################################################

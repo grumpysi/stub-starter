@@ -31,7 +31,7 @@ To run the test suite, you need [Composer](http://getcomposer.org/doc/)
 ```php
 $ php composer.phar install --dev
 $ vendor/bin/codecept run
-``
+```
 
 License
 -------

@@ -8,7 +8,9 @@ before_script:
   - composer install --prefer-source
   - php -S localhost:31415 -t /home/travis/build/grumpysi/stub-starter/public &
 
-script: vendor/bin/codecept run
+script:
+  - vendor/bin/codecept build
+  - vendor/bin/codecept run
 
 branches:
   only:

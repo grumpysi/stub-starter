@@ -15,8 +15,8 @@ Includes Vagrant environment for quick startup.  Silex works with PHP 5.3.3 or l
  * Run `git clone https://github.com/grumpysi/stub-starter.git newProjectName` and git will create the project for you.
  * Change directory to new project `cd newProjectName`
  * Run `vagrant up` to set up your development environment.
- * Add `192.168.10.11 stub.dev` to your hosts file via `sudo nano /private/etc/hosts
- * You're done! Navigate to `http://stub.dev/index.php` to see your application.
+ * You're done!, Navigate to `http://localhost:31415` to see your application.
+ * You can also use `http://stub.dev` by adding `192.168.10.11 stub.dev` to your hosts file via `sudo nano /private/etc/hosts`
 
 
 For more information on Composer and Vagrant:
@@ -26,13 +26,12 @@ For more information on Composer and Vagrant:
 
 ## Tests
 
-To run the test suite, you need `Composer`_:
+To run the test suite, you need [Composer](http://getcomposer.org/doc/)
 
-.. code-block:: bash
-
-    $ php composer.phar install --dev
-    $ vendor/bin/codecept run
-
+```php
+$ php composer.phar install --dev
+$ vendor/bin/codecept run
+``
 
 License
 -------

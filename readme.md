@@ -27,6 +27,7 @@ For more information on Composer and Vagrant:
 ## Tests
 
 To run the test suite, you need [Composer](http://getcomposer.org/doc/)
+
 Note: Acceptance tests only work for Starter-KIT 001
 
 ```php

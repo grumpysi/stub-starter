@@ -1,0 +1,52 @@
+{% extends "layouts/default.twig" %}
+{% import "macros/sectors.twig" as sector %}
+{% import "macros/products.twig" as product %}
+
+{% block title %}Resan | Thomas Dudley{% endblock %}
+{% block meta_description %}Resan - proven anti vandal toilets with a superior finish to steel basins, WC pans and urinals.{% endblock %}
+{% block meta_keywords %}Anti vandal toilets, steel basins, vandal resistant sanitaryware, stainless steel urinals, stainless steel toilet pans, stainless stainless toilet, commercial toilets, stainless urinals, commercial bathrooms, stainless steel wc{% endblock %}
+
+{% block content %}
+
+    <!-- start main content layout -->
+    <div id="main" class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+
+                <!-- Sector info: Start -->
+                <div class="row clearfix sectors_header">
+
+                    <div class="col-md-12 column">
+                        <img src="/assets/img/sectors/banners/{{ sectordata.banner|default('') }}">
+                        <h1>{{ sectordata.name|default('') }}</h1>
+                    </div>
+                    <div class="col-md-8 column">
+                        {{ sectordata.longdesc|default('')|raw }}
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 column">
+                        <a href="{{ sectordata.brochureurl|default('#') }}" class="btn btn-primary btn-lg btn-block" role="button">BROCHURE</a>
+                        <a href="#" class="btn btn-primary btn-lg btn-block" role="button">ENQUIRY</a>
+                        <a href="#" class="btn btn-primary btn-lg btn-block" role="button">CASE STUDIES</a>
+                    </div>
+
+                </div>
+                <!-- Sector info: End -->
+
+                <!-- Product list: Start -->
+                <div class="row clearfix productlist">
+
+                    <div class="col-md-12 column">
+                        <h1>Resan Range</h1>
+                    </div>
+
+                    {{ product.list_products( productsdata ) }}
+
+                </div>
+                <!-- Product list: End -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end main content layout -->
+
+{% endblock %}

@@ -1,0 +1,9 @@
+routings:
+  index:
+    method: get
+    url: /
+    view: index.twig
+  about us:
+    method: get
+    url: /about
+    view: index.twig

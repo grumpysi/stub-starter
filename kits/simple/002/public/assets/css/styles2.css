@@ -1,0 +1,753 @@
+        ::-moz-selection {
+            background: #008ed6;
+        }
+        ::selection {
+            background: #008ed6;
+        }
+        a,
+        .ha-transparent #navigation ul li a:hover {
+            color: #008ed6;
+        }
+        .ut-language-selector a:hover {
+            color: #008ed6;
+        }
+        .ut-custom-icon-link:hover i {
+            color: #008ed6 !important;
+        }
+        .ut-hide-member-details:hover,
+        #ut-blog-navigation a:hover,
+        .light .ut-hide-member-details,
+        .ut-mm-button:hover:before,
+        .ut-mm-trigger.active .ut-mm-button:before,
+        .ut-mobile-menu a:after {
+            color: #008ed6;
+        }
+        .ut-header-light .ut-mm-button:before {
+            color: #008ed6;
+        }
+        p.lead span,
+        .lead p span,
+        .entry-title span,
+        #cancel-comment-reply-link,
+        .member-description-style-3 .ut-member-title,
+        .ut-twitter-rotator h2 a,
+        .themecolor {
+            color: #008ed6;
+        }
+        .icons-ul i,
+        .comments-title span,
+        .member-social a:hover,
+        .ut-parallax-quote-title span,
+        .ut-member-style-2 .member-description .ut-member-title {
+            color: #008ed6;
+        }
+        .about-icon,
+        .ut-skill-overlay,
+        .ut-dropcap-one,
+        .ut-dropcap-two,
+        .ut-mobile-menu a:hover,
+        .themecolor-bg,
+        .ut-btn.ut-pt-btn:hover,
+        .ut-btn.dark:hover {
+            background: #008ed6;
+        }
+        blockquote,
+        div.wpcf7-validation-errors,
+        .ut-hero-style-5 .hero-description,
+        #navigation ul.sub-menu,
+        .ut-member-style-3 .member-social a:hover {
+            border-color: #008ed6;
+        }
+        .cta-section,
+        .ut-btn.theme-btn,
+        .ut-social-link:hover .ut-social-icon,
+        .ut-member-style-2 .ut-so-link:hover {
+            background: #008ed6 !important;
+        }
+        .ut-social-title,
+        .ut-service-column h3 span,
+        .ut-rq-icon {
+            color: #008ed6;
+        }
+        .count,
+        .ut-icon-list i {
+            color: #008ed6;
+        }
+        .client-section,
+        .ut-portfolio-pagination.style_two a.selected:hover,
+        .ut-portfolio-pagination.style_two a.selected,
+        .ut-portfolio-pagination.style_two a:hover,
+        .ut-pt-featured {
+            background: #008ed6 !important;
+        }
+        ins,
+        mark,
+        .ut-alert.themecolor,
+        .ut-portfolio-menu.style_two li a:hover,
+        .ut-portfolio-menu.style_two li a.selected,
+        .light .ut-portfolio-menu.style_two li a.selected:hover {
+            background: #008ed6;
+        }
+        .footer-content i {
+            color: #008ed6;
+        }
+        .copyright a:hover,
+        .footer-content a:hover,
+        .toTop:hover,
+        .ut-footer-dark a.toTop:hover,
+        .hero-title span {
+            color: #008ed6;
+        }
+        blockquote span {
+            color: #008ed6;
+        }
+        .entry-meta a:hover,
+        #secondary a:hover,
+        .page-template-templatestemplate-archive-php a:hover {
+            color: #008ed6;
+        }
+        h1 a:hover,
+        h2 a:hover,
+        h3 a:hover,
+        h4 a:hover,
+        h5 a:hover,
+        h6 a:hover,
+        .ut-header-dark .site-logo .logo a:hover {
+            color: #008ed6;
+        }
+        a.more-link:hover,
+        .fa-ul li .fa {
+            color: #008ed6;
+        }
+        .ut-pt-featured-table .ut-pt-info .fa-li {
+            color: #008ed6 !important;
+        }
+        .button,
+        input[type="submit"],
+        input[type="button"],
+        .dark button,
+        .dark input[type="submit"],
+        .dark input[type="button"],
+        .light .button,
+        .light input[type="submit"],
+        .light input[type="button"] {
+            background: #008ed6;
+        }
+        .img-hover {
+            background: rgb(0, 142, 214);
+            background: rgba(0, 142, 214, 0.85);
+        }
+        .portfolio-caption {
+            background: rgb(0, 142, 214);
+            background: rgba(0, 142, 214, 0.85);
+        }
+        .team-member-details {
+            background: rgba(0, 142, 214, 0.85);
+        }
+        .ut-avatar-overlay {
+            background: rgb(0, 142, 214);
+            background: rgba(0, 142, 214, 0.85);
+        }
+        .mejs-controls .mejs-time-rail .mejs-time-current,
+        .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+        .format-link .entry-header a {
+            background: #008ed6 !important;
+        }
+        .light .ut-portfolio-menu li a:hover,
+        .light .ut-portfolio-pagination a:hover,
+        .light .ut-nav-tabs li a:hover,
+        .light .ut-accordion-heading a:hover {
+            border-color: #008ed6 !important;
+        }
+        .light .ut-portfolio-menu li a:hover,
+        .light .ut-portfolio-pagination a:hover,
+        .ut-portfolio-list li strong,
+        .light .ut-nav-tabs li a:hover,
+        .light .ut-accordion-heading a:hover,
+        .ut-custom-icon a:hover i:first-child {
+            color: #008ed6 !important;
+        }
+        .ut-portfolio-gallery-slider .flex-direction-nav a,
+        .ut-gallery-slider .flex-direction-nav a,
+        .ut-rotate-quote-alt .flex-direction-nav a,
+        .ut-rotate-quote .flex-direction-nav a {
+            background: rgb(0, 142, 214);
+            background: rgba(0, 142, 214, 0.85);
+        }
+        .light .ut-bs-wrap .entry-title a:hover,
+        .light .ut-bs-wrap a:hover .entry-title {
+            color: #008ed6;
+        }
+        .ut-rated i {
+            color: #008ed6;
+        }
+        .ut-footer-area ul.sidebar a:hover {
+            color: #008ed6;
+        }
+        .ut-footer-dark .ut-footer-area .widget_tag_cloud a:hover {
+            color: #008ed6!important;
+        }
+        .ut-footer-dark .ut-footer-area .widget_tag_cloud a:hover {
+            border-color: #008ed6;
+        }
+        .elastislide-wrapper nav span:hover {
+            border-color: #008ed6;
+        }
+        .elastislide-wrapper nav span:hover {
+            color: #008ed6;
+        }
+        .ut-footer-so li a:hover {
+            border-color: #008ed6;
+        }
+        .ut-footer-so li a:hover i {
+            color: #008ed6!important;
+        }
+        .ut-pt-wrap.ut-pt-wrap-style-2 .ut-pt-featured-table .ut-pt-header {
+            background: #008ed6;
+        }
+        #navigation {
+            font-family: "ralewaysemibold", Helvetica, Arial, sans-serif !important;
+        }
+        #navigation ul li a {
+            color: #999999
+        }
+        #navigation ul li a:after {
+            color: #999999
+        }
+        #navigation li a:hover {
+            color: #008ed6;
+        }
+        #navigation .selected,
+        #navigation ul li.current_page_parent a.active,
+        #navigation ul li.current-menu-ancestor a.active {
+            color: #008ed6;
+        }
+        #navigation ul li a:hover,
+        #navigation ul.sub-menu li a:hover {
+            color: #008ed6;
+        }
+        #navigation ul.sub-menu li > a {
+            color: #999999;
+        }
+        #navigation ul li.current-menu-item:not(.current_page_parent) a,
+        #navigation ul li.current_page_item:not(.current_page_parent) a {
+            color: #008ed6;
+        }
+        #navigation ul li.current-menu-item:not(.current_page_parent) .sub-menu li a {
+            color: #999999;
+        }
+        .ut-header-dark #navigation li a:hover {
+            color: #008ed6;
+        }
+        .ut-header-dark #navigation .selected,
+        .ut-header-dark #navigation ul li.current_page_parent a.active,
+        .ut-header-dark #navigation ul li.current-menu-ancestor a.active {
+            color: #008ed6;
+        }
+        .ut-header-dark #navigation ul li a:hover,
+        .ut-header-dark #navigation ul.sub-menu li a:hover {
+            color: #008ed6;
+        }
+        .ut-header-dark #navigation ul.sub-menu li > a {
+            color: #999999;
+        }
+        .ut-header-dark #navigation ul li.current-menu-item:not(.current_page_parent) a,
+        .ut-header-dark #navigation ul li.current_page_item:not(.current_page_parent) a {
+            color: #008ed6;
+        }
+        .ut-header-dark #navigation ul li.current-menu-item:not(.current_page_parent) .sub-menu li a {
+            color: #999999;
+        }
+        .ut-loader-overlay {
+            background: #242a2d
+        }
+        @media screen and (min-width: 1025px) {
+            .hero-title {
+                font-size: 4em;
+            }
+        }
+        .hero-btn {
+            font-size: 14px !important;
+            text-transform: none !important;
+            background: #0e94e8 !important;
+            color: #ffffff !important;
+            border-radius: 4px !important;
+            border: none !important;
+            padding: 0.8em 1em;
+            letter-spacing: 1px;
+            -webkit-transition: 0.2s all linear;
+            -moz-transition: 0.2s all linear;
+            transition: 0.2s all linear;
+        }
+        .hero-btn:hover {
+            background: #ffffff !important;
+            color: #292929 !important;
+        }
+        .hero-second-btn {
+            font-size: 14px !important;
+            text-transform: none !important;
+            background: #ffffff !important;
+            color: #292929 !important;
+            border-radius: 4px !important;
+            border: none !important;
+            padding: 0.8em 1em;
+            letter-spacing: 1px;
+            -webkit-transition: 0.2s all linear;
+            -moz-transition: 0.2s all linear;
+            transition: 0.2s all linear;
+        }
+        .hero-second-btn:hover {
+            background: #0e94e8 !important;
+            color: #ffffff !important;
+        }
+        body {
+            font-family: ralewayregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        h1 {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        h2 {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        h3 {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        h4 {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        h5 {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        h6 {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .hero-title {
+            text-transform: uppercase;
+        }
+        #ut-hero .hero-holder {
+            margin-top: 80px;
+        }
+        .hero-title {
+            font-family: ralewaysemibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .hero {
+            background-repeat: no-repeat !important;
+            background-attachment: scroll !important;
+            background-position: center center !important;
+            background-size: cover !important;
+            background-image: url("http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/09/2083.jpg");
+        }
+        #ut-hero .ut-split-image {
+            max-width: 100% !important;
+        }
+        .hero .parallax-overlay {
+            background-color: rgba(41, 41, 41, 0.6);
+        }
+        #contact-section {
+            background-repeat: no-repeat !important;
+            background-attachment: fixed !important;
+            background-position: center top !important;
+            background-size: cover !important;
+            background-image: url("http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/08/contact-bg2.jpg");
+        }
+        #contact-section .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #contact-section .ut-left-footer-area {
+            background: rgb(255, 255, 255, 0.1);
+        }
+        #contact-section .ut-left-footer-area {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        #contact-section .ut-right-footer-area {
+            background: rgb(255, 255, 255, 0.1);
+        }
+        #contact-section .ut-right-footer-area {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        #contact-section .parallax-overlay {
+            background: rgb(41, 41, 41, 0.6);
+        }
+        #contact-section .parallax-overlay {
+            background: rgba(41, 41, 41, 0.6);
+        }
+        #contact-section .parallax-overlay {
+            padding-top: 80px;
+            padding-bottom: 120px;
+        }
+        .copyright {
+            font-family: "ralewaysemibold", Helvetica, Arial, sans-serif !important;
+        }
+        blockquote {
+            font-family: ralewaymedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        p.lead,
+        .lead p,
+        .taxonomy-description {
+            font-family: ralewayregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #ut-loader-logo {
+            background-image: url(http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/04/brooklyn-logo-light1.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        #are-you-ready-to-enjoy-brooklyn {
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+        #are-you-ready-to-enjoy-brooklyn .ut-offset-anchor {
+            top: -159px;
+        }
+        #are-you-ready-to-enjoy-brooklyn .parallax-header {
+            padding-bottom: 30px;
+        }
+        #are-you-ready-to-enjoy-brooklyn .section-header {
+            padding-bottom: 30px;
+        }
+        #are-you-ready-to-enjoy-brooklyn .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #are-you-ready-to-enjoy-brooklyn .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #are-you-ready-to-enjoy-brooklyn {
+            background-color: #ffffff;
+        }
+        #are-you-ready-to-enjoy-brooklyn .section-header.pt-style-1 .section-title span {
+            background-color: #ffffff;
+        }
+        #are-you-ready-to-enjoy-brooklyn p.lead,
+        .lead p {
+            color: #292929;
+        }
+        #counter .parallax-overlay {
+            padding-top: 100px;
+            padding-bottom: 60px;
+        }
+        #counter .parallax-header {
+            padding-bottom: 30px;
+        }
+        #counter .section-header {
+            padding-bottom: 30px;
+        }
+        #counter .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #counter .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #counter {
+            background-repeat: no-repeat !important;
+            background-attachment: scroll !important;
+            background-position: center center !important;
+            background-size: cover !important;
+            background-image: url("http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/04/Fotolia_67337824_Subscription_Monthly_M.jpg");
+        }
+        #counter .parallax-overlay {
+            background-color: rgb(41, 41, 41);
+        }
+        #counter .parallax-overlay {
+            background-color: rgba(41, 41, 41, 0.4);
+        }
+        #bring-your-data-to-life {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #bring-your-data-to-life .ut-offset-anchor {
+            top: -159px;
+        }
+        #bring-your-data-to-life .parallax-header {
+            padding-bottom: 30px;
+        }
+        #bring-your-data-to-life .section-header {
+            padding-bottom: 30px;
+        }
+        #bring-your-data-to-life .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #bring-your-data-to-life .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #bring-your-data-to-life {
+            background-color: #ffffff;
+        }
+        #bring-your-data-to-life .section-header.pt-style-1 .section-title span {
+            background-color: #ffffff;
+        }
+        #customized-communications-across-devices-platforms {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #customized-communications-across-devices-platforms .ut-offset-anchor {
+            top: -159px;
+        }
+        #customized-communications-across-devices-platforms .parallax-header {
+            padding-bottom: 30px;
+        }
+        #customized-communications-across-devices-platforms .section-header {
+            padding-bottom: 30px;
+        }
+        #customized-communications-across-devices-platforms .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #customized-communications-across-devices-platforms .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #customized-communications-across-devices-platforms {
+            background-color: #F7F8FA;
+        }
+        #customized-communications-across-devices-platforms .section-header.pt-style-1 .section-title span {
+            background-color: #F7F8FA;
+        }
+        #slider {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        #slider .ut-offset-anchor {
+            top: -79px;
+        }
+        #slider .parallax-header {
+            padding-bottom: 30px;
+        }
+        #slider .section-header {
+            padding-bottom: 30px;
+        }
+        #slider .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #slider .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #the-team-behind-brooklyn {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #the-team-behind-brooklyn .ut-offset-anchor {
+            top: -159px;
+        }
+        #the-team-behind-brooklyn .parallax-header {
+            padding-bottom: 30px;
+        }
+        #the-team-behind-brooklyn .section-header {
+            padding-bottom: 30px;
+        }
+        #the-team-behind-brooklyn .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #the-team-behind-brooklyn .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #the-team-behind-brooklyn {
+            background-color: #ffffff;
+        }
+        #the-team-behind-brooklyn .section-header.pt-style-1 .section-title span {
+            background-color: #ffffff;
+        }
+        #our-outstanding-service {
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+        #our-outstanding-service .ut-offset-anchor {
+            top: -159px;
+        }
+        #our-outstanding-service .parallax-header {
+            padding-bottom: 30px;
+        }
+        #our-outstanding-service .section-header {
+            padding-bottom: 30px;
+        }
+        #our-outstanding-service .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #our-outstanding-service .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #our-outstanding-service {
+            background-color: #F7F8FA;
+        }
+        #our-outstanding-service .section-header.pt-style-1 .section-title span {
+            background-color: #F7F8FA;
+        }
+        #our-outstanding-service p.lead,
+        .lead p {
+            color: #292929;
+        }
+        #stay-in-touch .parallax-overlay {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #stay-in-touch .parallax-header {
+            padding-bottom: 30px;
+        }
+        #stay-in-touch .section-header {
+            padding-bottom: 30px;
+        }
+        #stay-in-touch .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #stay-in-touch .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #stay-in-touch {
+            background-repeat: no-repeat !important;
+            background-attachment: scroll !important;
+            background-position: center center !important;
+            background-size: cover !important;
+            background-image: url("http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/08/Fotolia_66711478_Subscription_Monthly_XXL.jpg");
+        }
+        #stay-in-touch .parallax-overlay {
+            background-color: rgb(41, 41, 41);
+        }
+        #stay-in-touch .parallax-overlay {
+            background-color: rgba(41, 41, 41, 0.6);
+        }
+        #our-awesome-work {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #our-awesome-work .ut-offset-anchor {
+            top: -159px;
+        }
+        #our-awesome-work .parallax-header {
+            padding-bottom: 30px;
+        }
+        #our-awesome-work .section-header {
+            padding-bottom: 30px;
+        }
+        #our-awesome-work .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #our-awesome-work .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #our-awesome-work {
+            background-color: #ffffff;
+        }
+        #our-awesome-work .section-header.pt-style-1 .section-title span {
+            background-color: #ffffff;
+        }
+        #our-awesome-work p.lead,
+        .lead p {
+            color: #292929;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today {
+            padding-top: 80px;
+            padding-bottom: 65px;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today .ut-offset-anchor {
+            top: -159px;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today .parallax-header {
+            padding-bottom: 30px;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today .section-header {
+            padding-bottom: 30px;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today {
+            background-color: #292929;
+        }
+        #one-of-the-most-feature-rich-wordpress-theme-on-the-market-today .section-header.pt-style-1 .section-title span {
+            background-color: #292929;
+        }
+        #you-are-in-good-company .parallax-overlay {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #you-are-in-good-company .parallax-header {
+            padding-bottom: 30px;
+        }
+        #you-are-in-good-company .section-header {
+            padding-bottom: 30px;
+        }
+        #you-are-in-good-company .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #you-are-in-good-company .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #you-are-in-good-company {
+            background-repeat: repeat !important;
+            background-attachment: fixed !important;
+            background-position: center center !important;
+            background-size: auto !important;
+            background-image: url("http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/04/member-bg2.jpg");
+        }
+        #you-are-in-good-company .parallax-overlay {
+            background-color: rgb(0, 142, 214);
+        }
+        #you-are-in-good-company .parallax-overlay {
+            background-color: rgba(0, 142, 214, 0.9);
+        }
+        #our-clients {
+            padding-top: 60px;
+            padding-bottom: 35px;
+        }
+        #our-clients .ut-offset-anchor {
+            top: -139px;
+        }
+        #our-clients .parallax-header {
+            padding-bottom: 30px;
+        }
+        #our-clients .section-header {
+            padding-bottom: 30px;
+        }
+        #our-clients .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #our-clients .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #our-clients {
+            background-repeat: repeat !important;
+            background-attachment: scroll !important;
+            background-position: center center !important;
+            background-size: auto !important;
+            background-image: url("http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/uploads/2014/07/brnd-bg.jpg");
+        }
+        #our-clients {
+            background-color: #0487DD;
+        }
+        #our-clients .section-header.pt-style-1 .section-title span {
+            background-color: #0487DD;
+        }
+        #pricing {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+        #pricing .ut-offset-anchor {
+            top: -159px;
+        }
+        #pricing .parallax-header {
+            padding-bottom: 30px;
+        }
+        #pricing .section-header {
+            padding-bottom: 30px;
+        }
+        #pricing .parallax-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #pricing .section-title {
+            font-family: ralewaylight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #pricing {
+            background-color: #ffffff;
+        }
+        #pricing .section-header.pt-style-1 .section-title span {
+            background-color: #ffffff;
+        }
+        #pricing p.lead,
+        .lead p {
+            color: #292929;
+        }
+        .parallax-overlay-pattern.style_one {
+            background-image: url(" http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/themes/brooklyn/images/overlay-pattern.png") !important;
+        }
+        .parallax-overlay-pattern.style_two {
+            background-image: url(" http://themeforest.unitedthemes.com/wpversions/brooklyn/demo11/wp-content/themes/brooklyn/images/overlay-pattern2.png") !important;
+        }

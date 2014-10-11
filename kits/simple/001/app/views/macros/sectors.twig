@@ -1,0 +1,14 @@
+{% macro list_sectors(sectorsdata) %}
+    {% for sector in sectorsdata %}
+        <div class="col-md-3 column">
+            <div class="sector_box">
+                <a href="{{ sector.url|default('#') }}"><img src="assets/img/sectors/thumbnail/{{ sector.thumb|default('') }}"></a>
+                <div class="desc">
+                    <h3>{{ sector.name|default('')|e }}</h3>
+                    <p>{{ sector.shortdesc|default('')|e }}</p>
+                    <div class="link"><a href="{{ sector.url|default('#') }}">FIND OUT MORE »</a></div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endmacro %}

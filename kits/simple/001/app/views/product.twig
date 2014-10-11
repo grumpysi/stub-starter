@@ -1,0 +1,55 @@
+{% extends "layouts/default.twig" %}
+{% import "macros/products.twig" as product %}
+{% import "macros/lightbox.twig" as lightbox %}
+
+{% block title %}Resan | Thomas Dudley{% endblock %}
+{% block meta_description %}Resan - proven anti vandal toilets with a superior finish to steel basins, WC pans and urinals.{% endblock %}
+{% block meta_keywords %}Anti vandal toilets, steel basins, vandal resistant sanitaryware, stainless steel urinals, stainless steel toilet pans, stainless stainless toilet, commercial toilets, stainless urinals, commercial bathrooms, stainless steel wc{% endblock %}
+
+{% block css %}
+    {{ parent() }}
+    <!-- lightbox -->
+    <link rel="stylesheet" href="/lib/nivo-lightbox/nivo-lightbox.css" type="text/css" />
+    <link rel="stylesheet" href="/lib/nivo-lightbox/themes/default/default.css" type="text/css" />
+{% endblock %}
+
+{% block scripts_head %}
+    {{ parent() }}
+    <!-- lightbox -->
+    <script src="/lib/nivo-lightbox/nivo-lightbox.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('a').nivoLightbox();
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+
+    <!-- start main content layout -->
+    <div id="main" class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+
+                <div class="row clearfix" id="product-details">
+
+                    <div class="col-md-6 column">
+                        <img src="/assets/img/products/medium/{{ productdata.images[0].path|default('') }}">
+                        <div class="thumbs">{{ lightbox.images(productdata.images) }}</div>
+                    </div>
+
+                    <div class="col-md-6 column wysiwyg">
+                        <div class="product-bullets">
+                            {{ productdata.longdesc|default('')|raw }}
+                        </div>
+                    </div>
+                </div>
+
+                {{ product.buttons(productdata) }}
+
+            </div>
+        </div>
+    </div>
+    <!-- end main content layout -->
+
+{% endblock %}

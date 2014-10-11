@@ -1,0 +1,34 @@
+{%  macro show() %}
+    <!-- start carousel container -->
+    <div id="carousel" class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+
+                <!-- start carousel -->
+                <div class="carousel slide" id="slider1">
+                    <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#slider1" class="active"></li>
+                        <li data-slide-to="1" data-target="#slider1"></li>
+                        <li data-slide-to="2" data-target="#slider1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <img alt="" src="assets/img/slider/slider001.gif">
+                        </div>
+                        <div class="item">
+                            <img alt="" src="assets/img/slider/slider001.gif">
+                        </div>
+                        <div class="item active">
+                            <img alt="" src="assets/img/slider/slider001.gif">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#slider1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#slider1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+                <!-- end carousel -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end carousel container -->
+{%  endmacro %}

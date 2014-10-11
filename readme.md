@@ -27,11 +27,26 @@ For more information on Composer and Vagrant:
 ## Tests
 
 To run the test suite, you need [Composer](http://getcomposer.org/doc/)
+Note: Acceptance tests only work for Starter-KIT 001
 
 ```php
-$ php composer.phar install --dev
-$ vendor/bin/codecept run
+php composer.phar install --dev
+vendor/bin/codecept run
 ```
+
+## Starter KITs
+
+Starter KITS are like packaged app themes.  They give you a quick starting point for your project.
+
+You can switch Starter-KITS by the following commands
+
+```php
+php stub kit:switch --kit=002
+```
+
+There are currently 2 Starter-KITS
+* 001 - Flat theme ( Simple responsive bootstrap 3 site )
+* 002 - Single page theme ( One page responsive bootstrap 3 site )
 
 License
 -------

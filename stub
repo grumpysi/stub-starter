@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+// define paths
+define('APP_ROOT_PATH', __DIR__);
+define('APP_PATH', __DIR__.'/app');
+
+// setup auto loader
+require_once APP_ROOT_PATH.'/vendor/autoload.php';
+
+// import the Symfony Console Application
+use Symfony\Component\Console\Application;
+use Commands\KitSwitchCommand;
+
+$app = new Application();
+
+// Commands
+$app->add(new KitSwitchCommand());
+
+$app->run();
+?>

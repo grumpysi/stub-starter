@@ -56,6 +56,9 @@ EOT
         $output->writeln('');
 
         // Create backup folder
+        if ( !file_exists('kits/backup/') ) {
+            mkdir('kits/backup/');
+        }
         mkdir($backup_folder);
 
         // Backup current /app folder
